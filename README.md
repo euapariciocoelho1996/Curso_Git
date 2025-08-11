@@ -1,4 +1,3 @@
-````
 # 🚀 Curso_Git - Guia Prático
 
 ---
