@@ -6,13 +6,13 @@
 
 ```bash
 git checkout -b minha-feature
-````
+```
 
 ---
 
 ## ✍️ Fazer alterações no código
 
-*Edite seus arquivos normalmente usando seu editor favorito.*
+_Edite seus arquivos normalmente usando seu editor favorito._
 
 ---
 
@@ -75,10 +75,12 @@ git push origin main
 | **Push**         | Envia commits locais para o repositório remoto.                  |
 | **Pull**         | Baixa e integra commits do repositório remoto.                   |
 | **.gitignore**   | Arquivo que lista arquivos/pastas para serem ignorados pelo Git. |
-
-
+| **git clone**    | Copiar projeto com link do repositório.                          |
 
 ## Aulas
 
 https://www.youtube.com/watch?v=Zwv9qRyVeU4
+
+```
+
 ```
