@@ -78,5 +78,7 @@ git push origin main
 
 
 
-Se quiser, posso ajudar a criar uma versão com ícones ou até uma versão para apresentação visual! Quer?
+## Aulas
+
+https://www.youtube.com/watch?v=Zwv9qRyVeU4
 ```
