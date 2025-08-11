@@ -76,6 +76,7 @@ git push origin main
 | **Pull**         | Baixa e integra commits do repositório remoto.                   |
 | **.gitignore**   | Arquivo que lista arquivos/pastas para serem ignorados pelo Git. |
 | **git clone**    | Copiar projeto com link do repositório.                          |
+| **git clean -f** | Remove **arquivos não rastreados** do seu diretório de trabalho. |
 
 ## Aulas
 
