@@ -39,7 +39,7 @@ git commit -m "Implementada nova feature"
 ## 🔄 Voltar para a branch principal
 
 ```bash
-git checkout main
+git checkout main / git checkout -b nome
 ```
 
 ---
