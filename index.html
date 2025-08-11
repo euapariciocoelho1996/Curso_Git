@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aprenda Git — Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Landing page sobre programação: cursos, recursos, e exercícios práticos."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="card">
+          <div class="meta">Aprenda a programar • Cursos & Exercícios</div>
+          <h1>Domine o Git — do básico ao avançado</h1>
+          <p class="subtitle">
+            Tutoriais práticos, desafios e projetos para você dominar o controle
+            de versões, colaborar em equipe e publicar seus projetos no GitHub.
+            Ideal para iniciantes e quem quer se aprofundar em Git e GitHub.
+          </p>
+
+          <div class="cta-row">
+            <button class="btn btn-primary">Comece grátis</button>
+            <button class="btn btn-ghost">Ver trilhas</button>
+          </div>
+
+          <div class="features" style="margin-top: 20px">
+            <div class="feature">
+              <h3>Aprenda com repositórios reais</h3>
+              <p>
+                Pratique comandos Git em projetos simulados e publique no
+                GitHub.
+              </p>
+            </div>
+            <div class="feature">
+              <h3>Desafios práticos</h3>
+              <p>
+                Exercícios de 10–30 minutos para fixar comandos e fluxos de
+                trabalho.
+              </p>
+            </div>
+            <div class="feature">
+              <h3>Mentoria e comunidade</h3>
+              <p>
+                Tire dúvidas, compartilhe repositórios e receba feedback da
+                comunidade.
+              </p>
+            </div>
+          </div>
+
+          <form onsubmit="event.preventDefault();alert('Obrigado!');">
+            <input
+              type="email"
+              placeholder="Seu melhor email para receber dicas de Git"
+              required
+            />
+            <button class="btn btn-primary" type="submit">
+              Quero aprender Git
+            </button>
+          </form>
+
+          <p class="meta" style="margin-top: 12px">
+            Já usa Git?
+            <span class="badge">Compartilhe seus repositórios</span> e mostre
+            seu trabalho.
+          </p>
+        </div>
+
+        <!-- RIGHT PREVIEW / CODE SNIPPET -->
+        <aside class="preview card">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-bottom: 12px;
+            "
+          >
+            <div class="pill">Exemplo Git</div>
+            <div class="meta">Git • GitHub</div>
+          </div>
+          <div class="phone">
+            <div class="code" aria-hidden>
+              # Exemplo rápido: iniciar e subir projeto no GitHub<br />
+              git init<br />
+              git add .<br />
+              git commit -m "primeiro commit"<br />
+              git remote add origin https://github.com/seuusuario/seurepo.git<br />
+              git push -u origin master
+            </div>
+          </div>
+          <p class="meta" style="margin-top: 12px">
+            Quer aprender branch, merge, pull request ou integração com VS Code?
+            Peça que eu explico!
+          </p>
+        </aside>
+      </section>
+
+      <!-- MAIS CONTEÚDO: SEÇÕES ADICIONAIS -->
+      <section
+        style="
+          display: grid;
+          gap: 16px;
+          grid-template-columns: 1fr 1fr;
+          margin-bottom: 6px;
+        "
+      >
+        <div class="card">
+          <h3>Trilhas de aprendizado Git</h3>
+          <p class="subtitle">
+            Git básico, GitHub, Branches, Merge, Pull Requests, Colaboração e
+            Fluxos de trabalho.
+          </p>
+          <ul class="meta" style="padding-left: 18px">
+            <li>Iniciante → Comandos essenciais e primeiros commits</li>
+            <li>Intermediário → Branches, merges e colaboração</li>
+            <li>Avançado → Pull requests, rebases e integração contínua</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Recursos gratuitos de Git</h3>
+          <p class="subtitle">
+            Guias, cheatsheets, e repositórios de exemplo para praticar comandos
+            Git.
+          </p>
+          <p class="meta">
+            Baixe materiais, pratique comandos e publique seus repositórios no
+            GitHub.
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        © 2025 • Criado com ❤️ para quem quer aprender Git. • Feito por você
+        (copie e customize este template)
+      </footer>
+    </div>
+  </body>
+</html>
